@@ -77,7 +77,7 @@ const ProductDetail = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Product Image */}
           <ProductImage 
-            imageUrl={product.imageUrl} 
+            image={product.image} 
             isNew={product.isNew} 
             onSale={product.onSale} 
             discount={discount} 

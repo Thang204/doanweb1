@@ -11,7 +11,7 @@ export interface Product {
   name: string;
   price: number;
   originalPrice?: number;
-  imageUrl: string;
+  image: string;
   category: string;
   isNew?: boolean;
   onSale?: boolean;
@@ -54,10 +54,10 @@ const ProductCard = ({ product, className }: ProductCardProps) => {
         
         <Link to={`/products/${product.id}`}>
           <img
-            src={product.imageUrl}
+            src={product.image}
             alt={product.name}
             className={cn(
-              "object-cover w-full h-full transition-all duration-500",
+              "object-cover w-full h-full transition-transform duration-300 group-hover:scale-105",
               isHovered ? "scale-105" : "scale-100",
               !imageLoaded ? "opacity-0" : "opacity-100"
             )}

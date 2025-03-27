@@ -2,13 +2,13 @@ import { useState } from 'react';
 import { Badge } from '@/components/ui/badge';
 
 interface ProductImageProps {
-  imageUrl: string;
+  image: string;
   isNew?: boolean;
   onSale?: boolean;
   discount?: number;
 }
 
-const ProductImage = ({ imageUrl, isNew, onSale, discount }: ProductImageProps) => {
+const ProductImage = ({ image, isNew, onSale, discount }: ProductImageProps) => {
   const [imageLoaded, setImageLoaded] = useState(false);
 
   return (
@@ -17,7 +17,7 @@ const ProductImage = ({ imageUrl, isNew, onSale, discount }: ProductImageProps) 
         <div className="absolute inset-0 bg-muted animate-pulse"></div>
       )}
       <img 
-        src={imageUrl} 
+        src={image} 
         alt="Product image" 
         className={`w-full h-auto object-cover ${imageLoaded ? 'animate-blur-in' : 'opacity-0'}`}
         onLoad={() => setImageLoaded(true)}

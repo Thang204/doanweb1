@@ -6,9 +6,13 @@ const jwt = require('jsonwebtoken');
 const dotenv = require('dotenv');
 const path = require('path');
 dotenv.config();
-const {connectDB} = require('./config/db.js');
+const connectDB = require('./config/mongodb');
+const connectCloudinary = require('./config/cloudinary');
+const userRouter = require('./routes/userRoute');
 
 const app = express();
+
+
 const PORT = process.env.PORT || 5000;
 
 app.use(cors());
@@ -22,9 +26,11 @@ app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
 
-// api endpoints
-app.use('/api/categories', require('./routes/categories'));
+connectDB();
+connectCloudinary();
 
+//api endpoints
+app.use('/api/user',userRouter);
 
 
 

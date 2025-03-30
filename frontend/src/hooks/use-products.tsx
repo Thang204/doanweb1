@@ -21,7 +21,7 @@ export function useProducts() {
             id: 1,
             name: "Air Max Pulse",
             price: 149.99,
-            image: "assets/1.jpg",
+            image: "/src/assets/1.jpg",
             category: "men",
             isNew: true,
             colors: ["#000000", "#FFFFFF", "#FF0000"]
@@ -31,7 +31,7 @@ export function useProducts() {
             name: "Ultra Boost 22",
             price: 179.99,
             originalPrice: 229.99,
-            image: "assets/2.jpg",
+            image: "/src/assets/2.jpg",
             category: "men",
             onSale: true,
             colors: ["#000000", "#FFFFFF", "#3498DB"]
@@ -40,7 +40,7 @@ export function useProducts() {
             id: 3,
             name: "Cloud Nova",
             price: 159.99,
-            image: "assets/3.jpg",
+            image: "/src/assets/3.jpg",
             category: "women",
             colors: ["#CCCCCC", "#E74C3C", "#8E44AD"]
           },
@@ -48,7 +48,7 @@ export function useProducts() {
             id: 4,
             name: "Free Run 5.0",
             price: 129.99,
-            image: "assets/4.jpg",
+            image: "/src/assets/4.jpg",
             category: "women",
             colors: ["#000000", "#27AE60", "#F1C40F"]
           },
@@ -56,7 +56,7 @@ export function useProducts() {
             id: 5,
             name: "React Infinity",
             price: 159.99,
-            image: "assets/5.jpg",
+            image: "/src/assets/5.jpg",
             category: "women",
             isNew: true,
             colors: ["#F1C40F", "#3498DB", "#2ECC71"]
@@ -66,7 +66,7 @@ export function useProducts() {
             name: "Zoom Rival",
             price: 134.99,
             originalPrice: 159.99,
-            image: "assets/6.jpg",
+            image: "/src/assets/6.jpg",
             category: "men",
             onSale: true,
             colors: ["#000000", "#FFFFFF"]
@@ -75,7 +75,7 @@ export function useProducts() {
             id: 7,
             name: "Fresh Foam",
             price: 119.99,
-            image: "assets/7.jpg",
+            image: "/src/assets/7.jpg",
             category: "women",
             colors: ["#FFFFFF", "#FF69B4", "#9B59B6"]
           },
@@ -83,7 +83,7 @@ export function useProducts() {
             id: 8,
             name: "Court Legacy",
             price: 89.99,
-            image: "assets/8.jpg",
+            image: "/src/assets/8.jpg",
             category: "men",
             colors: ["#FFFFFF", "#000000"]
           }

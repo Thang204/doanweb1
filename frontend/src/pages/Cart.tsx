@@ -35,7 +35,7 @@ const Cart = () => {
                 <div key={`${item.product.id}-${item.size}`} className="flex gap-6 items-center p-4 bg-white rounded-lg shadow-sm">
                   <Link to={`/products/${item.product.id}`} className="w-24 h-24 rounded-md overflow-hidden bg-muted/30 shrink-0">
                     <img 
-                      src={item.product.imageUrl} 
+                      src={item.product.image} 
                       alt={item.product.name} 
                       className="w-full h-full object-cover" 
                     />

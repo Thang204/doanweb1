@@ -6,6 +6,8 @@ import { useIsMobile } from '@/hooks/use-mobile';
 import { useCart } from '@/hooks/use-cart';
 import SearchProducts from '@/components/products/SearchProducts';
 
+
+
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -34,7 +36,7 @@ const Navbar = () => {
             to="/" 
             className="text-2xl font-semibold tracking-tight transition-opacity hover:opacity-80"
           >
-            SNEAKERLY
+            SNEAKER SHOP
           </Link>
 
           {!isMobile && (

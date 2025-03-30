@@ -11,6 +11,7 @@ import Checkout from "./pages/Checkout";
 import CheckoutSuccess from "./pages/CheckoutSuccess";
 import NotFound from "./pages/NotFound";
 import { CartProvider } from "./hooks/use-cart";
+import Login from "./pages/Login.jsx";
 
 const queryClient = new QueryClient();
 
@@ -30,6 +31,7 @@ const App = () => (
             <Route path="/cart" element={<Cart />} />
             <Route path="/checkout" element={<Checkout />} />
             <Route path="/checkout-success" element={<CheckoutSuccess />} />
+            <Route path="/login" element={<Login/>} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>

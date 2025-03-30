@@ -9,6 +9,7 @@ dotenv.config();
 const connectDB = require('./config/mongodb');
 const connectCloudinary = require('./config/cloudinary');
 const userRouter = require('./routes/userRoute');
+const productRouter = require('./routes/productRoute');
 
 const app = express();
 
@@ -31,6 +32,7 @@ connectCloudinary();
 
 //api endpoints
 app.use('/api/user',userRouter);
+app.use('/api/product', productRouter);
 
 
 

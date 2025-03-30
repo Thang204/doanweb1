@@ -70,9 +70,11 @@ const Navbar = () => {
               <Search className="h-5 w-5" />
             </Button>
             
-            <Button variant="ghost" size="icon" className="relative" aria-label="Account">
-              <User className="h-5 w-5" />
-            </Button>
+            <Link to='/login'>
+              <Button variant="ghost" size="icon" className="relative" aria-label="Account">
+                <User className="h-5 w-5" />
+              </Button>
+            </Link>
             
             <Link to="/cart">
               <Button 

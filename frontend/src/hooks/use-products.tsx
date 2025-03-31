@@ -19,71 +19,71 @@ export function useProducts() {
         const mockProducts: Product[] = [
           {
             id: 1,
-            name: "Air Max Pulse",
+            name: "Air Force 1",
             price: 149.99,
-            image: "/src/assets/1.jpg",
+            image: "/src/assets/AIR+FORCE+1+'07.png",
             category: "men",
             isNew: true,
             colors: ["#000000", "#FFFFFF", "#FF0000"]
           },
           {
             id: 2,
-            name: "Ultra Boost 22",
+            name: "Air Force 1 LV8 2",
             price: 179.99,
             originalPrice: 229.99,
-            image: "/src/assets/2.jpg",
+            image: "/src/assets/AIR+FORCE+1+LV8+2+(GS).png",
             category: "men",
             onSale: true,
             colors: ["#000000", "#FFFFFF", "#3498DB"]
           },
           {
             id: 3,
-            name: "Cloud Nova",
+            name: "Killshot 2 Leather",
             price: 159.99,
-            image: "/src/assets/3.jpg",
+            image: "/src/assets/KILLSHOT+2+LEATHER.png",
             category: "women",
             colors: ["#CCCCCC", "#E74C3C", "#8E44AD"]
           },
           {
             id: 4,
-            name: "Free Run 5.0",
+            name: "Court Vision Low",
             price: 129.99,
-            image: "/src/assets/4.jpg",
+            image: "/src/assets/NIKE+COURT+VISION+LO.png",
             category: "women",
             colors: ["#000000", "#27AE60", "#F1C40F"]
           },
           {
             id: 5,
-            name: "React Infinity",
+            name: "Cortez (GS)",
             price: 159.99,
-            image: "/src/assets/5.jpg",
+            image: "/src/assets/NIKE+KIDS+CORTEZ+(GS).png",
             category: "women",
             isNew: true,
             colors: ["#F1C40F", "#3498DB", "#2ECC71"]
           },
           {
             id: 6,
-            name: "Zoom Rival",
+            name: "Dunk Low GS",
             price: 134.99,
             originalPrice: 159.99,
-            image: "/src/assets/6.jpg",
+            image: "/src/assets/NIKE+DUNK+LOW+GS.png",
             category: "men",
             onSale: true,
             colors: ["#000000", "#FFFFFF"]
           },
           {
             id: 7,
-            name: "Fresh Foam",
+            name: "Vista Sandal",
             price: 119.99,
-            image: "/src/assets/7.jpg",
+            image: "/src/assets/NIKE+VISTA+SANDAL.png",
             category: "women",
             colors: ["#FFFFFF", "#FF69B4", "#9B59B6"]
           },
           {
             id: 8,
-            name: "Court Legacy",
+            name: "Waffle Racer Crater",
             price: 89.99,
-            image: "/src/assets/8.jpg",
+            image: "/src/assets/W+AF1+SHADOW.png",
             category: "men",
             colors: ["#FFFFFF", "#000000"]
           }

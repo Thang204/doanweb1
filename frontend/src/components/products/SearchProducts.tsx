@@ -75,7 +75,7 @@ const SearchProducts = ({ isOpen, onClose }: SearchProductsProps) => {
                   >
                     <div className="h-10 w-10 rounded-md overflow-hidden bg-muted mr-3">
                       <img 
-                        src={product.imageUrl} 
+                        src={product.image} 
                         alt={product.name} 
                         className="h-full w-full object-cover"
                       />
